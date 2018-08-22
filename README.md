@@ -14,3 +14,6 @@ The file `faceRec2` displays facial landmarks around the subject's faces, howeve
 
 The final version is `faceRec` which does not save the images from the database onto the computer. 
 
+# toFaceEcondings
+
+This python file converts the stored images in your database and adds them to a "face encodings" column in the table that is being used. This allows so that the process only needs to be done once for the whole database, and therefore speed up the process of scanning for the right person in a database of 3+ million people.
